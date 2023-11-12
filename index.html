@@ -8,9 +8,17 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/4e3895d11d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
+<style>
+  body{
+    font-family: 'Lora', serif;
+  }
+</style>
 <body class="bg-gray-100">
-    <header class="bg-white">
+    <header class="bg-white p-4">
         <nav class="flex justify-between items-center w-[92%] mx-auto py-2">
             <div>
                 <img src="/Tailwind Starter Kit/img/logo.svg" alt="">
@@ -35,7 +43,7 @@
                 </ul>
             </div>
             <div class="flex items-center gap-6">
-                <button class="bg-[#30CA85] text-white px-5 hidden md:block py-2 rounded-full hover:shadow-lg transition ease-out duration-500">Request Invite</button>
+                <button class="bg-[#30CA85] text-white px-5 hidden md:block py-2 rounded-md hover:shadow-lg transition ease-out duration-500">Request Invite</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
             </div>
         </nav>
@@ -49,7 +57,7 @@
             <div class="md:w-1/2 p-4 md:mt-52">
               <h1 class="text-4xl font-semibold p-4 hover:text-green-400 cursor-pointer transition duration-500 text-[#2D314D]">Next generation digital banking</h1>
               <p class="p-4 text-gray-400">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-              <button class="bg-[#30CA85] text-white px-5 py-2 rounded-full hover:shadow-xl transition duration-500 ml-4">Request Invite</button>
+              <button class="bg-[#30CA85] text-white px-5 py-2 rounded-md hover:shadow-xl transition duration-500 ml-4">Request Invite</button>
             </div>
             
             <!-- Column 2 (Right on large screens, below Column 1 on small screens) -->
@@ -122,7 +130,7 @@
                       class="mb-2 text-sm leading-tight text-gray-400">
                       By Claire Robinson
                     </h5>
-                    <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700">Receive money in any currency with no fees</h1>
+                    <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700 cursor-pointer">Receive money in any currency with no fees</h1>
                     <p class="mb-4 text-sm leading-tight text-gray-400 mt-2">
                         The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single ...
                     </p>
@@ -141,7 +149,7 @@
                     class="mb-2 text-sm leading-tight text-gray-400">
                     By Wilson Hutton
                   </h5>
-                  <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700">Treat yourself without worrying about money</h1>
+                  <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700 cursor-pointer">Treat yourself without worrying about money</h1>
                   <p class="mb-4 text-sm leading-tight text-gray-400 mt-2">
                     Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …
                   </p>
@@ -160,7 +168,7 @@
                   class="mb-2 text-sm leading-tight text-gray-400">
                   By Wilson Hutton
                 </h5>
-                <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700">Take your Easybank card wherever you go</h1>
+                <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700 cursor-pointer">Take your Easybank card wherever you go</h1>
                 <p class="mb-4 text-sm leading-tight text-gray-400 mt-2">
                     We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …
                 </p>
@@ -179,7 +187,7 @@
                 class="mb-2 text-sm leading-tight text-gray-400">
                 By Claire Robinson
               </h5>
-              <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700">Our invite-only Beta accounts are now live!</h1>
+              <h1 class="text-base font-semibold text-[#2D314D] hover:text-green-500 transition ease-out duration-700 cursor-pointer">Our invite-only Beta accounts are now live!</h1>
               <p class="mb-4 text-sm leading-tight text-gray-400 mt-2">
                 After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...
               </p>
@@ -212,7 +220,7 @@
                     <h1 class="mt-2 text-white hover:text-green-500 cursor-pointer transition ease-out duration-500"><a href="#">Privacy Policy</a></h1>
                 </div>
                 <div class="mx-3 mt-6 flex flex-col">
-                    <button class="bg-[#30CA85] text-white py-2 rounded-full hover:shadow-xl transition duration-500 w-40">Request Invite</button>
+                    <button class="bg-[#30CA85] text-white py-2 rounded-md hover:shadow-xl transition duration-500 w-40">Request Invite</button>
                     <h2 class="mt-3 text-gray-500">© Easybank. All Rights Reserved</h2>
                 </div>
             </div>
